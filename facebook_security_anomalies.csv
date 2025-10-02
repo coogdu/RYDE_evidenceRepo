@@ -1,0 +1,9 @@
+Category,Description,Timestamp(s),Source File
+Linux Session,"Linux desktop session (X11; Linux x86_64, Edge/140) logged as Barnesville, GA","Sep 29, 2025 3:07 PM – Oct 1, 2025 6:21 AM","where_you're_logged_in.html, ip_address_activity.html, logins_and_logouts.html"
+Password Reset Storm,"168 password reset requests; spike of 45 on Mar 30, 2025; 26 on Mar 31, 2025","Mar 30–31, 2025",account_activity.html
+Account Recovery Duplicates,"114 recovery successes, 21 duplicate timestamps (e.g., Mar 30, 2025 9:09:18 PM appears 6×)","Mar 30, 2025",your_recent_account_recovery_successes.html
+Hyper-burst Logins,5 logins within one minute from IPv6 2607:fb90:d798:… to www.facebook.com,"Sep 29, 2025 3:23 PM",logins_and_logouts.html
+Device Model Variance,"Samsung Galaxy Tab A9+ (SM-X218U) session in Cordele, GA and Augusta, GA","Sep 29, 2025 3:23:53 PM – Sep 30, 2025 9:33:56 PM",where_you're_logged_in.html
+Reset + Recovery Rhythm,"Reset requests minutes before recovery successes (e.g., Sep 27, 2025 ~4:55–4:58 PM)","Sep 27 & Sep 30, 2025","account_activity.html, your_recent_account_recovery_successes.html"
+Export Integrity,Last login export shows mismatched data: timestamps instead of credential types,N/A,information_about_your_last_login.html
+Security Control Gap,Two-factor authentication disabled during periods of account resets,"Disabled Aug 17, 2024",two-factor_authentication.html
