@@ -1,0 +1,318 @@
+--------- beginning of system
+08-21 08:33:46.629 30717 30717 D ActivityThread: Package [com.openai.chatgpt] reported as REPLACED, but missing application info. Assuming REMOVED.
+08-21 08:33:46.630 30717 30717 D ActivityThread: Package [com.openai.chatgpt] reported as REPLACED, but missing application info. Assuming REMOVED.
+--------- beginning of main
+08-21 08:40:18.063 30717 13506 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-21 08:40:18.069 30717 13506 I MediaCodec: (0x7828c78000) init name(c2.android.vorbis.decoder)
+08-21 08:40:18.070 30717 13508 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-21 08:40:18.071 30717 13508 I CCodec  : setting up 'default' as default (vendor) store
+08-21 08:40:18.074 30717 11039 D AidlBufferPool: bufferpool2 0x782e4a08e8 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+08-21 08:40:18.076 30717 11039 D AidlBufferPool: Destruction - bufferpool2 0x782e4a08e8 cached: 0/0M, 0/0% in use; allocs: 7, 14% recycled; transfers: 24, 75% unfetched
+08-21 08:40:18.076 30717 13508 W com.termux: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+08-21 08:40:18.076 30717 13508 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-21 08:40:18.076 30717 13508 D CCodecConfig: read media type: audio/vorbis
+08-21 08:40:18.078 30717 13508 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-21 08:40:18.078 30717 13508 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-21 08:40:18.079 30717 13508 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-21 08:40:18.079 30717 13508 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-21 08:40:18.079 30717 13508 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-21 08:40:18.079 30717 13508 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-21 08:40:18.079 30717 13508 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-21 08:40:18.081 30717 13508 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+08-21 08:40:18.081 30717 13508 D CCodecConfig: c2 config diff is Dict {
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-21 08:40:18.081 30717 13508 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-21 08:40:18.081 30717 13508 D CCodecConfig: }
+08-21 08:40:18.081 30717 13508 I MediaCodec: (0x7828c78000) Component Allocated (c2.android.vorbis.decoder)
+08-21 08:40:18.084 30717 13506 I MediaCodec: (0x7828c78000) configure surface(0x0) crypto(0x0) flags(0)
+08-21 08:40:18.084 30717 13506 D MediaCodec: (0x7828c78000) configure format: AMessage(what = 0x00000000) = {
+08-21 08:40:18.084 30717 13506 D MediaCodec:       string mime = "audio/vorbis"
+08-21 08:40:18.084 30717 13506 D MediaCodec:       int64_t durationUs = 116848
+08-21 08:40:18.084 30717 13506 D MediaCodec:       int32_t track-id = 1
+08-21 08:40:18.084 30717 13506 D MediaCodec:       Buffer csd-0 = {
+08-21 08:40:18.084 30717 13506 D MediaCodec:         00000000:  01 76 6f 72 62 69 73 00  00 00 00 01 44 ac 00 00  .vorbis.....D...
+08-21 08:40:18.084 30717 13506 D MediaCodec:         00000010:  00 00 00 00 00 77 01 00  00 00 00 00 b8 01        .....w........
+08-21 08:40:18.084 30717 13506 D MediaCodec:       }
+08-21 08:40:18.084 30717 13506 D MediaCodec:       Buffer *csd-1 = 0x782e494dc0
+08-21 08:40:18.084 30717 13506 D MediaCodec:       int32_t bitrate = 96000
+08-21 08:40:18.084 30717 13506 D MediaCodec:       int32_t channel-count = 1
+08-21 08:40:18.084 30717 13506 D MediaCodec:       int32_t sample-rate = 44100
+08-21 08:40:18.084 30717 13506 D MediaCodec:       int32_t channel-mask = 1
+08-21 08:40:18.084 30717 13506 D MediaCodec:     }
+08-21 08:40:18.084 30717 13508 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-21 08:40:18.084 30717 13508 D CCodecConfig: no c2 equivalents for durationUs
+08-21 08:40:18.084 30717 13508 D CCodecConfig: no c2 equivalents for track-id
+08-21 08:40:18.085 30717 13508 D CCodecConfig: no c2 equivalents for csd-1
+08-21 08:40:18.085 30717 13508 D CCodecConfig: no c2 equivalents for flags
+08-21 08:40:18.086 30717 13508 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-21 08:40:18.086 30717 13508 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-21 08:40:18.086 30717 13508 D CCodec  : encoding statistics level = 0
+08-21 08:40:18.086 30717 13508 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t bitrate = 96000
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t channel-count = 1
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t max-input-size = 32768
+08-21 08:40:18.086 30717 13508 D CCodec  :   string mime = "audio/vorbis"
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t sample-rate = 44100
+08-21 08:40:18.086 30717 13508 D CCodec  : }
+08-21 08:40:18.086 30717 13508 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t channel-count = 1
+08-21 08:40:18.086 30717 13508 D CCodec  :   string mime = "audio/raw"
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t sample-rate = 44100
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t channel-mask = 1
+08-21 08:40:18.086 30717 13508 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-21 08:40:18.086 30717 13508 D CCodec  : }
+08-21 08:40:18.087 30717 13508 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+08-21 08:40:18.087 30717 13506 I MediaCodec: (0x7828c78000) start
+08-21 08:40:18.090 30717 13508 D CCodecBufferChannel: [c2.android.vorbis.decoder#39] Created input block pool with allocatorID 16 => poolID 24 - OK (0)
+08-21 08:40:18.091 30717 13508 I CCodecBufferChannel: [c2.android.vorbis.decoder#39] Created output block pool with allocatorID 16 => poolID 132 - OK
+08-21 08:40:18.092 30717 13508 D CCodecBufferChannel: [c2.android.vorbis.decoder#39] Configured output block pool ids 132 => OK
+08-21 08:40:18.092 30717 13508 D CCodecBufferChannel: [c2.android.vorbis.decoder#39] start: updating output delay 0
+08-21 08:40:18.093 30717 13508 I MediaCodec: (0x7828c78000) kWhatStartCompleted
+08-21 08:40:18.095 30717 13508 W com.termux: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+08-21 08:40:18.137 30717 13506 I MediaCodec: (0x7828c78000) stop
+08-21 08:40:18.138 30717 13508 D CCodecBufferChannel: [c2.android.vorbis.decoder#39] MediaCodec discarded an unknown buffer
+08-21 08:40:18.149 30717 13506 I MediaCodec: (0x7828c78000) release
+08-21 08:40:18.254 30717 30717 D InsetsController: show(ime(), fromIme=true)
+08-21 08:40:18.272 30717 30717 I ImeTracker: com.termux:98916154: onShown
+08-21 08:40:18.352 30717 30717 I ImeTracker: com.termux:b90efd12: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+08-21 08:40:18.352 30717 30717 D InputMethodManager: showSoftInput() view=com.termux.view.TerminalView{1582707 VFED.V.L. .F...... 0,0-1204,1431 #7f080191 app:id/terminal_view aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+08-21 08:40:18.357 30717 30717 D InsetsController: show(ime(), fromIme=true)
+08-21 08:40:18.358 30717 30717 I ImeTracker: com.termux:b90efd12: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+08-21 08:40:19.726 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.726 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.726 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.726 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.738 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.738 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.738 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.738 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.749 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.749 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.749 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.749 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.761 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.761 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.761 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.761 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.773 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.773 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.773 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.773 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.784 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.784 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.784 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.784 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.796 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.796 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.796 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.796 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:19.831 30717 30717 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@b36bc40
+08-21 08:40:19.832 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:19.832 30717  9505 D BufferQueueProducer: [PopupWindow:9166c3c#7112(BLAST Consumer)pid:30717](id:77fd0000002d,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:20.772 30717 30717 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1fc1028
+08-21 08:40:20.773 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:20.773 30717  9505 D BufferQueueProducer: [PopupWindow:4c7475e#7110(BLAST Consumer)pid:30717](id:77fd0000002b,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:20.775 30717 30717 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@51606d4
+08-21 08:40:20.776 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:20.776 30717  9505 D BufferQueueProducer: [PopupWindow:938a555#7111(BLAST Consumer)pid:30717](id:77fd0000002c,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:21.029 30717 30717 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@da4e16e
+08-21 08:40:21.030 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:21.030 30717  9505 D BufferQueueProducer: [PopupWindow:9166c3c#7114(BLAST Consumer)pid:30717](id:77fd0000002e,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:21.030 30717  9505 D HWUI    : endAllActiveAnimators on 0x7828ba0400 (RippleDrawable) with handle 0x7796e32a00
+08-21 08:40:21.298 13553 13553 W bash    : type=1400 audit(0.0:1665): avc:  granted  { execute } for  name="command-not-found" dev="dm-63" ino=477742 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c215,c257,c512,c768 tclass=file app=com.termux.tasker
+08-21 08:40:21.298 13553 13553 W bash    : type=1400 audit(0.0:1666): avc:  granted  { execute } for  name="command-not-found" dev="dm-63" ino=477742 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c215,c257,c512,c768 tclass=file app=com.termux.tasker
+08-21 08:40:21.298 13553 13553 W bash    : type=1400 audit(0.0:1667): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/libexec/termux/command-not-found" dev="dm-63" ino=477742 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c215,c257,c512,c768 tclass=file app=com.termux.tasker
+08-21 08:40:21.298 13553 13553 W command-not-fou: type=1400 audit(0.0:1668): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/libexec/termux/command-not-found" dev="dm-63" ino=477742 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c215,c257,c512,c768 tclass=file app=com.termux.tasker
+08-21 08:40:21.298 13553 13553 W command-not-fou: type=1400 audit(0.0:1669): avc:  denied  { search } for  name="tests" dev="dm-63" ino=113 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux.tasker
+08-21 08:40:23.076 30717  9537 D AidlBufferPoolAcc: evictor expired: 1, evicted: 0
+08-21 08:40:24.077 30717  9537 D AidlBufferPool: bufferpool2 0x782e51b368 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+08-21 08:40:24.077 30717  9537 D AidlBufferPoolAcc: evictor expired: 1, evicted: 1
+08-21 08:40:30.779 30717 30717 D VRI[TermuxActivity]: visibilityChanged oldVisibility=true newVisibility=false
+08-21 08:40:30.801 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:30.801 30717  9505 D BufferQueueProducer: [com.termux/com.termux.app.TermuxActivity#7102(BLAST Consumer)pid:30717](id:77fd0000002a,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:30.916 30717 30717 D InsetsController: hide(ime(), fromIme=true)
+08-21 08:40:30.939 30717 30717 I ImeTracker: com.openai.chatgpt:43bb4515: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+08-21 08:40:30.940 30717 30717 I ImeTracker: com.termux:b23db1c1: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+08-21 08:40:30.941 30717 30717 I ImeTracker: com.termux:b23db1c1: onFailed at PHASE_CLIENT_VIEW_SERVED
+08-21 08:40:49.006 30717 13885 D MediaCodecList: codecHandlesFormat: no format, so no extra checks
+08-21 08:40:49.009 30717 13885 I MediaCodec: (0x782e302800) init name(c2.android.vorbis.decoder)
+08-21 08:40:49.010 30717 13886 D CCodec  : allocate(c2.android.vorbis.decoder)
+08-21 08:40:49.013 30717 13886 I CCodec  : setting up 'default' as default (vendor) store
+08-21 08:40:49.016 30717 30734 D AidlBufferPool: bufferpool2 0x782e51b368 : 0(0 size) total buffers - 0(0 size) used buffers - 1/7 (recycle/alloc) - 6/24 (fetch/transfer)
+08-21 08:40:49.016 30717 30734 D AidlBufferPool: Destruction - bufferpool2 0x782e51b368 cached: 0/0M, 0/0% in use; allocs: 7, 14% recycled; transfers: 24, 75% unfetched
+08-21 08:40:49.017 30717 13886 W com.termux: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+08-21 08:40:49.017 30717 13886 I CCodec  : Created component [c2.android.vorbis.decoder]
+08-21 08:40:49.017 30717 13886 D CCodecConfig: read media type: audio/vorbis
+08-21 08:40:49.019 30717 13886 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+08-21 08:40:49.020 30717 13886 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+08-21 08:40:49.020 30717 13886 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+08-21 08:40:49.020 30717 13886 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+08-21 08:40:49.020 30717 13886 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+08-21 08:40:49.020 30717 13886 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+08-21 08:40:49.020 30717 13886 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+08-21 08:40:49.022 30717 13886 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+08-21 08:40:49.022 30717 13886 D CCodecConfig: c2 config diff is Dict {
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 32768
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   c2::u32 input.delay.value = 0
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   string input.media-type.value = "audio/vorbis"
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   c2::u32 output.large-frame.max-size = 0
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   c2::u32 output.large-frame.threshold-size = 0
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   string output.media-type.value = "audio/raw"
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+08-21 08:40:49.022 30717 13886 D CCodecConfig:   c2::u32 raw.sample-rate.value = 48000
+08-21 08:40:49.022 30717 13886 D CCodecConfig: }
+08-21 08:40:49.022 30717 13886 I MediaCodec: (0x782e302800) Component Allocated (c2.android.vorbis.decoder)
+08-21 08:40:49.024 30717 13885 I MediaCodec: (0x782e302800) configure surface(0x0) crypto(0x0) flags(0)
+08-21 08:40:49.024 30717 13885 D MediaCodec: (0x782e302800) configure format: AMessage(what = 0x00000000) = {
+08-21 08:40:49.024 30717 13885 D MediaCodec:       string mime = "audio/vorbis"
+08-21 08:40:49.024 30717 13885 D MediaCodec:       int64_t durationUs = 116848
+08-21 08:40:49.024 30717 13885 D MediaCodec:       int32_t track-id = 1
+08-21 08:40:49.024 30717 13885 D MediaCodec:       Buffer csd-0 = {
+08-21 08:40:49.024 30717 13885 D MediaCodec:         00000000:  01 76 6f 72 62 69 73 00  00 00 00 01 44 ac 00 00  .vorbis.....D...
+08-21 08:40:49.024 30717 13885 D MediaCodec:         00000010:  00 00 00 00 00 77 01 00  00 00 00 00 b8 01        .....w........
+08-21 08:40:49.024 30717 13885 D MediaCodec:       }
+08-21 08:40:49.024 30717 13885 D MediaCodec:       Buffer *csd-1 = 0x782e54de40
+08-21 08:40:49.024 30717 13885 D MediaCodec:       int32_t bitrate = 96000
+08-21 08:40:49.024 30717 13885 D MediaCodec:       int32_t channel-count = 1
+08-21 08:40:49.024 30717 13885 D MediaCodec:       int32_t sample-rate = 44100
+08-21 08:40:49.024 30717 13885 D MediaCodec:       int32_t channel-mask = 1
+08-21 08:40:49.024 30717 13885 D MediaCodec:     }
+08-21 08:40:49.028 30717 13886 D CCodec  : [c2.android.vorbis.decoder] buffers are bound to CCodec for this session
+08-21 08:40:49.029 30717 13886 D CCodecConfig: no c2 equivalents for durationUs
+08-21 08:40:49.029 30717 13886 D CCodecConfig: no c2 equivalents for track-id
+08-21 08:40:49.029 30717 13886 D CCodecConfig: no c2 equivalents for csd-1
+08-21 08:40:49.029 30717 13886 D CCodecConfig: no c2 equivalents for flags
+08-21 08:40:49.030 30717 13886 D CCodecConfig: c2 config diff is   c2::u32 coded.bitrate.value = 96000
+08-21 08:40:49.030 30717 13886 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+08-21 08:40:49.030 30717 13886 D CCodec  : encoding statistics level = 0
+08-21 08:40:49.030 30717 13886 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t bitrate = 96000
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t channel-count = 1
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t max-input-size = 32768
+08-21 08:40:49.030 30717 13886 D CCodec  :   string mime = "audio/vorbis"
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t sample-rate = 44100
+08-21 08:40:49.030 30717 13886 D CCodec  : }
+08-21 08:40:49.030 30717 13886 D CCodec  : setup formats output: AMessage(what = 0x00000000) = {
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t buffer-batch-max-output-size = 0
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t buffer-batch-threshold-output-size = 0
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t channel-count = 1
+08-21 08:40:49.030 30717 13886 D CCodec  :   string mime = "audio/raw"
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t sample-rate = 44100
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t channel-mask = 1
+08-21 08:40:49.030 30717 13886 D CCodec  :   int32_t android._config-pcm-encoding = 2
+08-21 08:40:49.030 30717 13886 D CCodec  : }
+08-21 08:40:49.031 30717 13886 I CCodecConfig: query failed after returning 8 values (BAD_INDEX)
+08-21 08:40:49.035 30717 13885 I MediaCodec: (0x782e302800) start
+08-21 08:40:49.038 30717 13886 D CCodecBufferChannel: [c2.android.vorbis.decoder#889] Created input block pool with allocatorID 16 => poolID 25 - OK (0)
+08-21 08:40:49.040 30717 13886 I CCodecBufferChannel: [c2.android.vorbis.decoder#889] Created output block pool with allocatorID 16 => poolID 134 - OK
+08-21 08:40:49.040 30717 13886 D CCodecBufferChannel: [c2.android.vorbis.decoder#889] Configured output block pool ids 134 => OK
+08-21 08:40:49.040 30717 13886 D CCodecBufferChannel: [c2.android.vorbis.decoder#889] start: updating output delay 0
+08-21 08:40:49.042 30717 13886 I MediaCodec: (0x782e302800) kWhatStartCompleted
+08-21 08:40:49.044 30717 13886 W com.termux: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+08-21 08:40:49.078 30717 13885 I MediaCodec: (0x782e302800) stop
+08-21 08:40:49.079 30717 13886 D CCodecBufferChannel: [c2.android.vorbis.decoder#889] MediaCodec discarded an unknown buffer
+08-21 08:40:49.080 30717 13885 I MediaCodec: (0x782e302800) release
+08-21 08:40:49.209 30717 30717 D InsetsController: show(ime(), fromIme=true)
+08-21 08:40:49.209 30717 30717 D InsetsController: show(ime(), fromIme=true)
+08-21 08:40:49.210 30717 30717 I ImeTracker: com.termux:b6660a2c: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+08-21 08:40:49.232 30717 30717 I ImeTracker: com.termux:93438b8a: onShown
+08-21 08:40:49.288 30717 30717 I ImeTracker: com.termux:2c17fdf9: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+08-21 08:40:49.288 30717 30717 D InputMethodManager: showSoftInput() view=com.termux.view.TerminalView{1582707 VFED.V.L. .F...... 0,0-1204,1431 #7f080191 app:id/terminal_view aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+08-21 08:40:49.291 30717 30717 D InsetsController: show(ime(), fromIme=true)
+08-21 08:40:49.291 30717 30717 I ImeTracker: com.termux:2c17fdf9: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+08-21 08:40:50.403 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.403 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.403 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.403 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.431 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.431 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.431 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.431 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.434 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.434 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.434 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.434 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.444 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.444 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.444 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.444 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.455 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.455 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.455 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.455 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.466 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.466 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.466 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.466 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.477 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.477 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.477 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.477 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.488 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.488 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.488 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.488 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.499 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.499 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.499 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.499 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.500 30717 30717 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@f82c7db
+08-21 08:40:50.500 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:50.500 30717  9505 D BufferQueueProducer: [PopupWindow:e361306#7170(BLAST Consumer)pid:30717](id:77fd00000032,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:50.522 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.522 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.522 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.522 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.533 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.533 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.533 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.533 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.544 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.544 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.544 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.544 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.555 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.555 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.555 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.555 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.566 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.566 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.566 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.566 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.577 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.577 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.577 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.577 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.588 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.588 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.588 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.588 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.600 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.600 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.600 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:50.600 30717 30717 E ViewDragHelper: Ignoring pointerId=0 because ACTION_DOWN was not received for this pointer before ACTION_MOVE. It likely happened because  ViewDragHelper did not receive all the events in the event stream.
+08-21 08:40:51.711 30717 30717 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@eaccf63
+08-21 08:40:51.712 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:51.712 30717  9505 D BufferQueueProducer: [PopupWindow:f4c9818#7168(BLAST Consumer)pid:30717](id:77fd00000030,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:51.714 30717 30717 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@112febf
+08-21 08:40:51.715 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:51.715 30717  9505 D BufferQueueProducer: [PopupWindow:b9550d7#7169(BLAST Consumer)pid:30717](id:77fd00000031,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:51.970 30717 30717 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@82af9a8
+08-21 08:40:51.971 30717  9505 D Surface : Surface::disconnect
+08-21 08:40:51.971 30717  9505 D BufferQueueProducer: [PopupWindow:e361306#7172(BLAST Consumer)pid:30717](id:77fd00000033,api:1,p:30717,c:30717) disconnect: api 1
+08-21 08:40:51.971 30717  9505 D HWUI    : endAllActiveAnimators on 0x782ca32000 (RippleDrawable) with handle 0x7828c7c460
+08-21 08:40:52.322 13934 13934 W bash    : type=1400 audit(0.0:1675): avc:  granted  { execute } for  name="logcat" dev="dm-63" ino=487999 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c215,c257,c512,c768 tclass=file app=com.termux.tasker
+08-21 08:40:52.322 13934 13934 W bash    : type=1400 audit(0.0:1676): avc:  granted  { execute } for  name="dash" dev="dm-63" ino=512699 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c215,c257,c512,c768 tclass=file app=com.termux.tasker
+08-21 08:40:52.322 13934 13934 W bash    : type=1400 audit(0.0:1677): avc:  granted  { execute_no_trans } for  path="/data/data/com.termux/files/usr/bin/dash" dev="dm-63" ino=512699 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c215,c257,c512,c768 tclass=file app=com.termux.tasker
+08-21 08:40:52.322 13934 13934 W sh      : type=1400 audit(0.0:1678): avc:  granted  { execute } for  path="/data/data/com.termux/files/usr/bin/dash" dev="dm-63" ino=512699 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c215,c257,c512,c768 tclass=file app=com.termux.tasker
+08-21 08:40:52.326 13934 13934 W sh      : type=1400 audit(0.0:1679): avc:  denied  { search } for  name="tests" dev="dm-63" ino=113 scontext=u:r:untrusted_app_27:s0:c215,c257,c512,c768 tcontext=u:object_r:shell_test_data_file:s0 tclass=dir permissive=0 app=com.termux.tasker
